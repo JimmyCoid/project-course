@@ -1,0 +1,73 @@
+.services {
+  margin: 0 auto;
+}
+
+.service {
+  display: inline-block;
+  vertical-align: top;
+
+  max-width: 362px;
+  min-height: 455px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-right: 23px;
+  border: 5px solid #fff;
+}
+
+.service:last-child {
+  margin-right: 0;
+}
+
+.service.border {
+  border: 5px solid #ccc;
+}
+
+.service__content {
+  padding-top: 34px;
+  padding-bottom: 71px;
+}
+
+.service_icon {
+  margin-left: 25px;
+  max-width: 84px;
+  max-height: 80px;
+}
+
+.service__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-left: 19px;
+  color: #000;
+}
+
+.service__infs {
+  margin-top: 17px;
+  margin-left: 20px;
+}
+
+.service__inf {
+  color: #666;
+  font-size: 16px;
+  font-weight: 400px;
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.bolder {
+  color: #000;
+  font-weight: 700;
+}
+
+.service__description {
+  margin-top: 25px;
+  margin-bottom: 47px;
+  margin-left: 20px;
+  color: #666;
+}
+
+.btn__service {
+  margin-left: 22px;
+}

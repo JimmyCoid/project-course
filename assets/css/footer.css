@@ -1,0 +1,100 @@
+.footer {
+    height: 146px;
+    position: relative;
+}
+
+.logo--footer {
+    position: absolute;
+    top: 41px;
+    left: 0;
+}
+
+.menu--footer {
+    position: absolute;
+    top: 59px;
+    left: 328px;
+    margin-left: 0px;
+}
+
+.menu__item--footer {
+    margin-right: 50px;
+}
+
+.menu__item--footer:last-child {
+    margin-right: 0px;
+} 
+
+.social {
+    position: absolute;
+    top: 49px;
+    right: 265px;
+}
+
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.social__item--tg .social__link {
+    background-image: url(../img/tg.png);
+}
+
+.social__item--tg .social__link:hover {
+    background-image: url(../img/tg-hover.png);
+}
+
+.social__item--vk .social__link {
+    background-image: url(../img/vk.png);
+}
+
+.social__item--vk .social__link:hover {
+    background-image: url(../img/vk-hover.png);
+}
+
+.social__item--fb .social__link {
+    background-image: url(../img/fb.png);
+}
+
+.social__item--fb .social__link:hover {
+    background-image: url(../img/fb-hover.png);
+}
+
+.social__item--in .social__link {
+    background-image: url(../img/in.png);
+}
+
+.social__item--in .social__link:hover {
+    background-image: url(../img/in-hover.png);
+}
+
+.contacts--footer {
+    padding: 0;
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+
+.contacts__desc {
+    color: #9A9A9A;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.footer__hr {
+    max-width: 1142px;
+    height: 4px;
+    color: #fff;
+    opacity: 10%;
+}

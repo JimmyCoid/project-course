@@ -1,0 +1,85 @@
+@import url("header.css");
+@import url("services.css");
+@import url("news.css");
+@import url("about.css");
+@import url("footer.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  height: 100%;
+  color: #fff;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #17191C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper {
+  min-height: 100%;
+
+  background: url(../img/hero.png) center top no-repeat,
+  url(../img/bottom-pic.png) center bottom 306px no-repeat;
+}
+
+.container {
+  max-width: 1142px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 198px;
+  max-height: 46px;
+  display: inline-block;
+}
+
+.btn-more {
+   text-transform: uppercase;
+   background-color: #FF3D00;
+   border-radius: 35px;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 700;
+   padding: 18px 54px;
+   border: 2px solid #FF3D00;
+}
+
+.btn__lighter {
+  background-color: #fff;
+  color: #FF3D00;
+  border: 2px solid #FF3D00;
+}
+
+.btn__about {
+  padding: 18px 40px;
+  background-color: #FF5400;
+}
