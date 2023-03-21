@@ -13,29 +13,38 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper wrapper__index">
         <div class="container">
             <header class="header">
-                <a href="">
-                    <img src="assets/img/logo.png" alt="Логотип" class="logo logo_header">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Услуги</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="contacts">
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                    <div class="contacts__schedule">График работы</div>
+                <div class="header__col header__col--logo">
+                    <a href="">
+                        <img src="assets/img/logo.png" alt="Логотип" class="logo logo_header">
+                    </a>
                 </div>
+
+                <div class="header__col header__col--menu">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="services.html" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="reviews.html" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header__col header__col--contacts">
+                    <div class="contacts">
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                        <div class="contacts__schedule">График работы</div>
+                    </div>
+                </div>
+
             </header>
         </div>
 
@@ -53,14 +62,16 @@
                     <div class="service__content">
                         <img src="assets/img/tv.png" alt="" class="service_icon">
                         <h2 class="service__title">Реклама</h2>
-                        <div class="service__infs">
-                            <p class="service__inf">От <span class="service__inf bolder">5</span> человек на проект</p>
-                            <p class="service__inf"><span class="service__inf bolder">28</span> дней работы в среднем
-                            </p>
-                        </div>
-                        <p class="service__description">Креатив и производство рекламы, документального и корпоративного
-                            контента.</p>
-                        <a href="" class="btn-more btn__lighter btn__service">Подробнее</a>
+
+                            <div class="service__infs">
+                                <p class="service__inf">От <span class="service__inf bolder">5</span> человек на проект</p>
+                                <p class="service__inf"><span class="service__inf bolder">28</span> дней работы в среднем
+                                </p>
+                            </div>
+                            <p class="service__description">Креатив и производство рекламы, документального и корпоративного
+                                контента.</p>
+                            <a href="" class="btn-more btn__lighter btn__service">Подробнее</a>
+
                     </div>
                 </div>
 
@@ -68,14 +79,15 @@
                     <div class="service__content">
                         <img src="assets/img/clapper.png" alt="" class="service_icon">
                         <h2 class="service__title">Видео-клип</h2>
-                        <div class="service__infs">
-                            <p class="service__inf">От <span class="service__inf bolder">7</span> человек на проект</p>
-                            <p class="service__inf"><span class="service__inf bolder">21</span> дней работы в среднем
-                            </p>
-                        </div>
-                        <p class="service__description">Вы решили представиться своим слушателям, пополнить свой
-                            творческий багаж качественным видео? Прекрасно! </p>
-                        <a href="" class="btn-more btn__service">Подробнее</a>
+                            <div class="service__infs">
+                                <p class="service__inf">От <span class="service__inf bolder">7</span> человек на проект</p>
+                                <p class="service__inf"><span class="service__inf bolder">21</span> дней работы в среднем
+                                </p>
+                            </div>
+                            <p class="service__description">Вы решили представиться своим слушателям, пополнить свой
+                                творческий багаж качественным видео? Прекрасно! </p>
+                            <a href="" class="btn-more btn__service">Подробнее</a>
+
                     </div>
                 </div>
 
@@ -83,14 +95,16 @@
                     <div class="service__content">
                         <img src="assets/img/film.png" alt="" class="service_icon">
                         <h2 class="service__title">Свадьба</h2>
-                        <div class="service__infs">
-                            <p class="service__inf">От <span class="service__inf bolder">2</span> человек на проект</p>
-                            <p class="service__inf"><span class="service__inf bolder">30</span> дней работы в среднем
-                            </p>
-                        </div>
-                        <p class="service__description">Получите живое видео своего самого счастливого дня, которое Вы
-                            будете пересматривать снова и снова.</p>
-                        <a href="" class="btn-more btn__lighter btn__service">Подробнее</a>
+
+                            <div class="service__infs">
+                                <p class="service__inf">От <span class="service__inf bolder">2</span> человек на проект</p>
+                                <p class="service__inf"><span class="service__inf bolder">30</span> дней работы в среднем
+                                </p>
+                            </div>
+                            <p class="service__description">Получите живое видео своего самого счастливого дня, которое Вы
+                                будете пересматривать снова и снова.</p>
+                            <a href="" class="btn-more btn__lighter btn__service">Подробнее</a>
+
                     </div>
                 </div>
             </div>
@@ -152,9 +166,11 @@
             </div>
         </div>
 
-        <div class="container">
-            <footer class="footer">
-                <hr class="footer__hr">
+        <footer class="footer">
+          <div class="container">
+            <hr class="footer__hr">
+            <div class="footer__content">
+
                 <img src="assets/img/logo.png" alt="Логотип" class="logo logo--footer">
                 <nav class="menu menu--footer">
                     <ul class="menu__list">
@@ -162,10 +178,10 @@
                             <a href="" class="menu__link">Главная</a>
                         </li>
                         <li class="menu__item menu__item--footer">
-                            <a href="" class="menu__link">Услуги</a>
+                            <a href="services.html" class="menu__link">Услуги</a>
                         </li>
                         <li class="menu__item menu__item--footer">
-                            <a href="" class="menu__link">Отзывы</a>
+                            <a href="reviews.html" class="menu__link">Отзывы</a>
                         </li>
                     </ul>
                 </nav>
@@ -188,7 +204,7 @@
                     <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                 </div>
         </div>
-
+        </div>
         </footer>
 
     </div>

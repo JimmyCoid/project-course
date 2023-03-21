@@ -1,0 +1,38 @@
+.partners {
+  background-color: #F4F5F5;
+  height: 537px;
+}
+
+.partners__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #000;
+  padding-top: 87px;
+}
+
+.partners__list {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.partners__item {
+  flex: 1 0 21%;
+  margin-bottom: 60px;
+  text-align: center;
+  transition: 0.6s;
+}
+
+.partners__item:hover {
+  transform: scale(1.1);
+}
+
+.partners__item:nth-child(4n) {
+  text-align: right;
+}
+
+.partners__item:nth-child(4n+1) {
+  text-align: left;
+}

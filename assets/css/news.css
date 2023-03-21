@@ -1,9 +1,12 @@
 .slider-news {
-  margin-top: 175px;
+  margin-top: 150px;
 }
 
 .new {
   margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .news__title {
@@ -15,10 +18,9 @@
 
 .new__item {
   width: 555px;
-  display: inline-block;
+  display: inline-flex;
   vertical-align: top;
   position: relative;
-  margin-right: 25px;
 }
 
 .new__item:last-child {
@@ -61,11 +63,13 @@
 .pager {
   text-align: center;
   margin-bottom: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .pager__count, .pager__numbers, .pager__number {
-  display: inline-block;
-
+  display: inline-flex;
 }
 
 .pager__count {
@@ -87,6 +91,7 @@
 
 .pager__link:hover {
   background-color: #FF5500;
+  color: #fff;
 }
 
 .pager__number--active .pager__link {

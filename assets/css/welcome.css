@@ -1,0 +1,25 @@
+.welcome-services {
+  margin-top: 114px;
+}
+
+.breadcrumb {
+  color: #9A9A9A;
+  margin-top: 82px;
+}
+
+.breadcrumb__item {
+  display: inline-block;
+}
+
+.breadcrumb__link {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9A9A9A;
+  text-decoration: underline;
+}
+
+.breadcrumb__link.bolder {
+  font-size: 14px;
+  font-weight: 700;
+  color: #9A9A9A;
+}
