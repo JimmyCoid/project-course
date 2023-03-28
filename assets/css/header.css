@@ -17,7 +17,6 @@
 .menu__list {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .menu__item {
@@ -35,6 +34,7 @@
   flex-direction: column;
   text-align: right;
   align-items: flex-end;
+  position: relative;
 }
 
 .menu__link {
@@ -65,10 +65,13 @@
   line-height: 20px;
   margin-top: -6px;
   cursor: pointer;
+
+  position: absolute;
+  top: 35px;
 }
 
 .schedule__content {
-  margin-top: 10px;
+  margin-top: 40px;
   background: #fff;
   width: 160px;
   height: 70px;
@@ -77,8 +80,20 @@
   text-align: left;
   justify-content: center;
   border-radius: 9px;
-
   display: none;
+
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.schedule__content::before {
+  content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    top: -30px;
+    right: 30px; /* Положение треугольника */
+    border: 15px solid transparent; border-bottom: 15px solid #fff;
+    margin-left: 100px;
 }
 
 
@@ -88,9 +103,10 @@
   line-height: 21px;
   color: #1E1F20;
   padding-top: 15px;
+
 }
 
-.contacts__schedule:hover + .schedule__content{
+.contacts__schedule:hover + .schedule__content, .schedule__content:hover{
   display: flex;
 }
 
